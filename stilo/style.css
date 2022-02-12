@@ -1,0 +1,23 @@
+
+main {
+    background-color: rgb(252, 239, 181);
+    width: 1024px;    
+    text-align: center;  
+
+}
+ 
+table{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.linha{
+	background: rgb(252, 239, 181);
+	color: #3d3c3c;
+	padding: 20px 0px;
+	text-align: center;
+	font-weight: 60;
+    width: 1024px;
+}
