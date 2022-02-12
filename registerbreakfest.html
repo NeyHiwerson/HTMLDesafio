@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 
 <head>
     <meta charset="UTF-8">
@@ -17,7 +17,7 @@
         <div class="home">
             <h1>Novo Cadastro de Colaboração</h1>
 
-            <form th:action="@{/index}" th:object="${employee}}" method="post">
+            <form th:action="@{/index}" th:object="${employee}" method="post">
                 <input type="text" name="name" th:field="*{name}" th:placeholder="Name" /> <br />
                 <span>Nome do Colaborador</span>
                 <br />
@@ -29,8 +29,8 @@
             </form>
 
             <br>
-
-            <a href="#" th:href="@{/index}">Listagem Café da Manhã</a>
+            <a href="index.html">Listagem Café da Manhã</a>
+            
 
         </div>
     </main>
